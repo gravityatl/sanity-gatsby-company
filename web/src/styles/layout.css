@@ -1,0 +1,46 @@
+@import './vars.css';
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: var(--font-base-size);
+  line-height: var(--font-base-line-height);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-white);
+  color: var(--color-black);
+  margin: 0;
+}
+
+@media (orientation: portrait) {
+  body {
+      background-size: auto 100vh;
+  }
+}
+
+html, body, body > div, body > div > div {
+  height: 100%;
+}
+
+.homemainwrap {
+  display: flex;
+}
+
+.homemain {
+  flex: 2;
+}
+
+.homemainside {
+  flex: 1;
+}
+
+.homemainside img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .homemainwrap {
+    flex-direction: column;
+  }
+}
