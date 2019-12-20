@@ -70,6 +70,15 @@ export default () =>
                     .schemaType('page')
                     .documentId('contact')
                 )
+                .icon(FaFile),
+                S.listItem()
+                .title('Offer')
+                .child(
+                  S.editor()
+                    .id('OfferPage')
+                    .schemaType('page')
+                    .documentId('offer')
+                )
                 .icon(FaFile)
             ])
         ),
