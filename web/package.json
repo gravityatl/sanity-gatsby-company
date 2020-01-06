@@ -23,7 +23,7 @@
     "@sanity/image-url": "^0.140.15",
     "date-fns": "^1.30.1",
     "dotenv": "^8.1.0",
-    "gatsby": "^2.15.16",
+    "gatsby": "^2.18.18",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-postcss": "^2.1.7",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
