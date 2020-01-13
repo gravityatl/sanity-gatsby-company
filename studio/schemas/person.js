@@ -42,54 +42,7 @@ export default {
           lists: []
         }
       ]
-    },
-    {
-      name: 'faq',
-      title: 'FAQ',
-      type: 'array',
-      of: [
-        {
-          title: 'Question and Answer',
-          type: 'object',
-          fields: [
-            {
-              title: 'Question',
-              name: 'question',
-              type: 'string'
-            },
-            {
-              title: 'Answer',
-              name: 'answer',
-              type: 'text'
-            }
-          ]
-        }
-      ]
-    },
-    {
-      name: 'bioEvent',
-      title: 'Bio Event',
-      type: 'array',
-      of: [
-        {
-          title: 'Title and Description',
-          type: 'object',
-          fields: [
-            {
-              title: 'Title',
-              name: 'title',
-              type: 'string'
-            },
-            {
-              title: 'Description',
-              name: 'description',
-              type: 'text'
-            }
-          ]
-        }
-      ]
     }
-
   ],
   preview: {
     select: {

@@ -1,7 +1,7 @@
 export default {
     name: 'faq',
     title: 'FAQ',
-    type: 'array',
+    type: 'object',
     fields: [
       {
         name: 'question',

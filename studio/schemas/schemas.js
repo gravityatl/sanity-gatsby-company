@@ -15,6 +15,7 @@ import mainImage from './mainImage'
 import moreImage from './moreImage'
 import page from './page'
 import person from './person'
+// import faq from './faq'
 import post from './post'
 import postAuthor from './postAuthor'
 import project from './project'
@@ -42,6 +43,7 @@ export default createSchema({
     moreImage,
     page,
     person,
+    // faq,
     post,
     postAuthor,
     project,
